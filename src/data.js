@@ -1,43 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    name: "42 Lisboa",
+    description: "hello world",
+    github: "https://github.com/exkizo/42-Codes",
+    image: "./42logo3.png"
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    name: "42Chain",
+    description: "hello world",
+    github: "#",
+    image: "./42logo3.png"
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    name: "FullStack Open 2021",
+    description: "hello world",
+    github: "#",
+    image: "./logofullstack.png"
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
-];
+    name: "This Website",
+    description: "hello world",
+    github: "#",
+    image: "./feplogo2.png"
+  }
+]
 
 export const education = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "./42logo2.png",
+      "42 is a disruptive, futuristic coding school that realies on a peer-to-peer method. There are no teachers besides my colleges and no classes, just projects to be submitted. The common part of the course is done in C and C++ languages. The especialization can be done in JavaScript, C++, Phyton and others, depending on wich area you whant to persue in your carreer. To know more about 42, just click on the link on the top of the card and visit their website! ",
+    image: "./42logo3.png",
     name: "42 Lisboa",
     company: "Software engineering",
     website: "https://www.42lisboa.com/",
@@ -46,7 +38,7 @@ export const education = [
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+      "Faculdade de Economia do Porto is a well know, traditional portuguese university for economics and business. I have enrolled in the course with the objective to understand the world, society and how did humam kind got to this level of social and economic organization. During the course I was very excited about Finance, especially Defi. Unfortunally we did never discussed this subject, so I realized I had to step foward. I need to learn how to code.",
     image: "./feplogo2.png",
     name: "Universidade do Porto",
     company: "BsC on Economics",
