@@ -42,20 +42,24 @@ export const projects = [
     image: "./logofullstack.png",
     projects: [
       {
-        name: "Fundamentals of Web Apps",
-        github: "https://github.com/jocorrei/fullstackopen2021/tree/main/part0"
+        name: "Feedback App",
+        github: "https://github.com/jocorrei/unicafe"
       },
       {
-        name: "Introduction to React",
-        github: "https://github.com/jocorrei/fullstackopen2021/tree/main/part01"
+        name: "Anecdotes App",
+        github: "https://github.com/jocorrei/anecdotesapp"
       },
       {
-        name: "Communicating with server",
-        github: "https://github.com/jocorrei/fullstackopen2021/tree/main/part02"
+        name: "Countries App",
+        github: "https://github.com/jocorrei/countries_app"
       },
       {
-        name: "Programming a server with NodeJS and Express",
-        github: "#",
+        name: "Phonebook App",
+        github: "https://github.com/jocorrei/fullstackopen2021_part03/tree/main"
+      },
+      {
+        name: "Source Codes",
+        github: "https://github.com/jocorrei/fullstackopen2021/"
       }
     ]
   },
