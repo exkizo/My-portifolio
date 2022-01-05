@@ -13,27 +13,24 @@ export default function Projects(){
           		Projects
 				</h1>
 				<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-          	 	 What i've been coding. Hoover the cards to check the application or to see the source codes
+          	 	 What i've been coding. Click on the links and you will be redirected to the sorce code.
 				</p>
-				<div className="flex items-center justify-center flex-wrap m-4">
-					{projects.map((projects) => (
-						<div class="m-4 bg-gray-800 rounded-xl shadow-md p-4 w-auto">
-							<img className="rounded-t-xl bg-white"src={projects.image}></img>
-							<h2 className="bg-gray-100 text-black font-bold">{projects.name}</h2>
-							<p className="bg-white text-black">{projects.description}</p>
+				<div className="flex flex-wrap m-4 items-center justify-between">
+					{projects.map((project) => (
+						<div class="m-4 bg-gray-800 rounded-xl shadow-md p-4 w-80 h-1/4">
+							<img className="rounded-t-xl bg-white w-80"src={project.image}></img>
+							<h2 className="bg-white text-black font-bold p-2">{project.name}</h2>
+							<p className="flex bg-white text-gray-500 items-center justify-center w-100 pt-2 pb-2">{project.description}</p>
+							<ul className="text-black bg-white">
+								{project.projects.map(project => (
+										<li className="hover:opacity-40 p-2"><a href={project.github}>{project.name}</a></li>
+								))}
+							</ul>
 							<div className="bg-white rounded-b-xl p-4">
-								<button id="github" class="bg-white  sticky duration-500 border-2 border-gray-600 fixed  w-12 transform hover:-translate-y-3   h-12 text-2xl rounded-full hover:bg-gray-600 hover:text-white text-gray-600 ">
-								<a href={projects.github} target="_blank"><FontAwesomeIcon icon={faGithub}/></a>
-								</button>
-								
 							</div>
 						</div>
 					))}
 				</div>
-			
-			
-			
-			
 			</div>
 
 

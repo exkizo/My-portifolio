@@ -11,7 +11,7 @@ export default function Education() {
           Education
         </h1>
         <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-          A brief description about the main Education that i've got. To know about each one, just click on the link on the top of the card.
+          A brief description about the main Education that i've got. To know about each one, just click on header link on the top of the card.
           </p>
         <div className="flex flex-wrap m-4">
           {education.map((education) => (

@@ -12,7 +12,7 @@ export default function About() {
             <h1>I want to become a blockchain developer!</h1>
             <br className="hidden lg:inline-block" /></h1>
           <p className="mb-8 leading-relaxed">
-         I got my degree in economics from the University of Porto on march 2021. In april I applied for a scholarship at 42 Lisbon programming school, a futuristic software engeneering school that relies on a peer-to-peer, gamified and learn-by-doing method. In november I came to Lisbon to start the scholarship and now I am looking for a job as a Junior Software Engeneer so I can keep learning to become a blockchain developer. In the meanwhile I've been working on the restaurant business and making some money on the crypto ecosystem.</p>
+         I got my degree in economics from the University of Porto on march 2021. On april 2021 I applied for a scholarship at 42 Lisbon programming school, a futuristic software engeneering school that relies on a peer-to-peer, gamified and learn-by-doing method. In november I came to Lisbon to start the scholarship and now I am looking for a job as a Junior Software Engineer so I can keep learning to become a blockchain developer. In the meanwhile I've been working on the restaurant business and making some money on the crypto ecosystem.</p>
           <div className="flex justify-center">
             <a
               href="#contact"
@@ -30,10 +30,7 @@ export default function About() {
           <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-correia-de-oliveira-270a791b6" target="_blank"><FontAwesomeIcon icon={faLinkedin}/></a>
           </button>
           <button id="github" class="bg-white  sticky duration-500 border-2 border-gray-600 fixed  w-12 transform hover:-translate-y-3   h-12 text-2xl rounded-full hover:bg-gray-600 hover:text-white text-gray-600 ">
-          <a href="https://github.com/exkizo" target="_blank"><FontAwesomeIcon icon={faGithub}/></a>
-          </button>
-          <button id="discord" class="bg-white transform hover:-translate-y-3  border-2 w-12 h-12 rounded-full duration-500 text-indigo-500 border-indigo-500 hover:bg-indigo-500 hover:text-white text-2xl">
-          <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-correia-de-oliveira-270a791b6" target="_blank"><FontAwesomeIcon icon={faDiscord}/></a>
+          <a href="https://github.com/jocorrei" target="_blank"><FontAwesomeIcon icon={faGithub}/></a>
           </button>
           <button id="facebook" class="bg-white  sticky duration-500 border-2 border-blue-600 fixed  w-12 transform hover:-translate-y-3   h-12 text-2xl rounded-full hover:bg-blue-600 hover:text-white text-blue-600 ">
           <a href="https://www.facebook.com/joaopedro.magalhaes.378/" target="_blank"><FontAwesomeIcon icon={faFacebook}/></a>
