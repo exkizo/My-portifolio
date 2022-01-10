@@ -1,7 +1,5 @@
 import React from "react"
 import { CodeIcon } from "@heroicons/react/solid";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { projects } from "../data" 
 
 export default function Projects(){
@@ -23,7 +21,7 @@ export default function Projects(){
 							<p className="flex bg-white text-gray-500 items-center justify-center w-100 pt-2 pb-2">{project.description}</p>
 							<ul className="text-black bg-white">
 								{project.projects.map(project => (
-										<li className="hover:opacity-40 p-2"><a href={project.github}>{project.name}</a></li>
+										<li className="hover:opacity-40 p-2"><a href={project.github} target="_blank" rel="noopener noreferrer">{project.name}</a></li>
 								))}
 							</ul>
 							<div className="bg-white rounded-b-xl p-4">
@@ -32,8 +30,6 @@ export default function Projects(){
 					))}
 				</div>
 			</div>
-
-
 		</section>
 
 	);
