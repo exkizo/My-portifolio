@@ -24,12 +24,16 @@ export const projects = [
   },
   {
     name: "42Chain",
-    description: "This is a Blockchain development club that me and some collegues founded inside 42. We created this club on november 2021 to discuss about blockchain topics and implement Dapps. The club is now a DAO deployed on the Polygon Mumbai Testnet",
-    image: "./42logo3.png",
+    description: "This is a Blockchain development club that me and some collegues founded inside 42. We created this club on november 2021 to discuss about blockchain topics and implement Dapps.",
+    image: "./42chainlogo.png",
     projects: [
       {
         name: "Put string on Etherum testnet",
         github: "https://github.com/jocorrei/testing42chain"
+      },
+      {
+        name: "42 Chain faucet",
+        github: "https://github.com/jocorrei/42faucet"
       }
     ]
   },
@@ -55,6 +59,14 @@ export const projects = [
         github: "https://github.com/jocorrei/fullstackopen2021_part03"
       },
       {
+        name: "Part04 - Testing Express servers, user administration",
+        github: "https://github.com/jocorrei/fullstackopen2021/tree/master/part04"
+      },
+      {
+        name: "Part05 - Testing React apps",
+        github: "https://github.com/jocorrei/fullstackopen2021/tree/master/part05"
+      },
+      {
         name: "Source Codes",
         github: "https://github.com/jocorrei/fullstackopen2021/"
       }
@@ -68,6 +80,10 @@ export const projects = [
       {
         name: "This Website",
         github: "https://github.com/jocorrei/My-portifolio/tree/master"
+      },
+      {
+        name: "Houses Scraper",
+        github: "https://github.com/jocorrei/PythonScraper_housing"
       }
     ]
   }
@@ -133,9 +149,20 @@ export const skills = [
     img: "./reacticon.svg"
   },
   {
-    name: "JavaScript",
+    name: "Vue.js",
     level: "30%",
+    img: "./vueicon.svg"
+  },
+  {
+    name: "JavaScript",
+    level: "40%",
     img: "./jsicon.svg"
+  },
+  {
+    name: "Python",
+    level: "30%",
+    img: "./pythonicon.svg"
+
   },
   {
     name: "Tailwind",
